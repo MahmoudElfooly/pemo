@@ -12,7 +12,7 @@ import '../dataSource/remoteData/transactions_remote_services.dart';
 class TransactionRepositoryImp implements TransactionRepository {
   final TransactionsRemoteServices _transactionsRemoteServices =
       TransactionsRemoteServices();
-  final TransactionLocalData _transactionLocalData = TransactionLocalData();
+  final TransactionLocalData _transactionLocalData = TransactionLocalDataImp();
 
   @override
   Future<Either<ApiRequestFailure, List<TransactionModel>>>

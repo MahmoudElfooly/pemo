@@ -11,11 +11,11 @@ class TransactionMapperImp implements TransactionMapper {
   @override
   TransactionEntity transactionModelToEntity(TransactionModel model) {
     return TransactionEntity(
-      id: model.id,
-      cardName: model.cardName,
-      amount: model.amount,
-      date: model.date,
-    );
+        id: model.id,
+        cardName: model.cardName,
+        amount: model.amount,
+        date: model.date,
+        owner: model.owner);
   }
 
   @override
