@@ -22,12 +22,22 @@ This Flutter application is designed to help customers easily navigate their car
 ### Multiple Accounts (Bonus):  
 - Support multiple accounts, where each profile maintains its own cards and transactions.  
 
-## Screenshot  
-Here’s a preview of the app:  
+## Screenshots
 
-![App Screenshot](./assets/screenshot.png)  
+### Create Card Screen
+![Create Card](assets/screenshot_create_card.png)
 
-> *Make sure to save the screenshot in your project under the `assets` folder and reference the correct path.*  
+### Transaction Details Screen
+![Transaction Details](assets/screenshot_transaction_details.png)
+
+### Card List Screen
+![Card List](assets/screenshot_card_list.png)
+
+### Multi-Account Support
+![Multi-Account](assets/screenshot_multi_account.png)
+
+### Netowrk-Connection
+![Multi-Account](assets/screenshot_no_internet_conection.png)
 
 ## Technologies Used  
 - **Flutter**: For building the mobile app.  
@@ -40,28 +50,24 @@ Here’s a preview of the app:
 
 ### 1. Clone the Repository  
 \`\`\`bash
-git clone https://github.com/your-username/pemo-flutter-assignment.git
-cd pemo-flutter-assignment
+git clone https://github.com/MahmoudElfooly/pemo-flutter-assignment.git
+cd pemo
 \`\`\`  
 
 ### 2. Install Dependencies  
 Run the following command to install all dependencies:  
-\`\`\`bash
 flutter pub get
-\`\`\`  
 
 ### 3. Run the Mock API  
-To use the mock API, navigate to the mock API directory and run:  
-\`\`\`bash
+⚠️⚠️⚠️**To use the mock API, navigate to the mock API directory and run:  
 dart run /AppPath/mokApi/mock_api.dart
-\`\`\`  
-⚠️ **Important:** Ensure this is the last command running in the terminal. The mock API must remain active while using the app.  
+
+**Important:** Ensure this is the last command running in the terminal. 
+The mock API must remain active while using the app.**  ⚠️⚠️⚠️
 
 ### 4. Run the Flutter App  
 Open a new terminal window and run:  
-\`\`\`bash
 flutter run
-\`\`\`  
 
 ## Project Structure  
 The project follows **Clean Architecture** principles:  
@@ -78,9 +84,7 @@ The project follows **Clean Architecture** principles:
 
 ## Testing  
 The app includes **unit tests** to validate business logic and critical functions. To run tests:  
-\`\`\`bash
 flutter test
-\`\`\`  
 
 ## Future Improvements  
 - **Multiple Accounts**: Each profile maintains its own cards and transactions.  
@@ -98,15 +102,13 @@ flutter test
 
 ## Important Notes  
 - **Mock API**: Ensure it’s running before using the app:  
-  \`\`\`bash
   dart run /AppPath/mokApi/mock_api.dart
-  \`\`\`  
-- **Local Data Persistence**: The app uses **Hive**, allowing data to persist even when offline.  
+-**Local Data Persistence**: The app uses **Hive**, allowing data to persist even when offline.  
 
 ## Contact  
 For questions or issues, contact:  
 
-**Your Name**: your-email@example.com  
-**GitHub Repository**: [Pemo Flutter Assignment](https://github.com/your-username/pemo-flutter-assignment)  
+**Author Mail**: mahmoudelfooly2@gmail.com.com  
+**GitHub Repository**: [Pemo](https://github.com/MahmoudElfooly/pemo)  
 
 🚀 Thank you for using the Pemo Flutter Assignment app! 🚀  
