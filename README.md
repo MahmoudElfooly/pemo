@@ -19,7 +19,7 @@ This Flutter application is designed to help customers easily navigate their car
 ### Transaction Details Page:  
 - Fetch and display detailed transaction data using a mock API.  
 
-### Multiple Accounts (Bonus):  
+### Multiple Accounts :  
 - Support multiple accounts, where each profile maintains its own cards and transactions.  
 
 ## Screenshots
